@@ -9,7 +9,7 @@ return {
   ---@type AstroCoreOpts
   opts = {
     -- Configure core features of AstroNvim
-    colorschema = "catppuccin",
+    colorscheme = "catppuccin",
     features = {
       large_buf = { size = 1024 * 500, lines = 10000 }, -- set global limits for large files for disabling features like treesitter
       autopairs = true, -- enable autopairs at start
