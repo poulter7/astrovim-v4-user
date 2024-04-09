@@ -30,6 +30,7 @@ return {
   { import = "astrocommunity.pack.toml" },
   { import = "astrocommunity.test.neotest" },
   { import = "astrocommunity.utility.mason-tool-installer-nvim" },
+  { import = "astrocommunity.colorscheme.catppuccin" },
   {
     "smoka7/hop.nvim",
     opts = {},
