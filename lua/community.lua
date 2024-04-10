@@ -28,6 +28,7 @@ return {
   { import = "astrocommunity.pack.julia" },
   { import = "astrocommunity.pack.python-ruff" },
   { import = "astrocommunity.pack.toml" },
+  { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.test.neotest" },
   { import = "astrocommunity.utility.mason-tool-installer-nvim" },
   { import = "astrocommunity.colorscheme.catppuccin" },
