@@ -18,6 +18,7 @@ return {
   { import = "astrocommunity.project.projectmgr-nvim" },
   { import = "astrocommunity.project.nvim-spectre" },
   { import = "astrocommunity.code-runner.compiler-nvim" },
+  { import = "astrocommunity.diagnostics.trouble-nvim" },
   { import = "astrocommunity.git.neogit" },
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.bash" },
