@@ -9,6 +9,7 @@ return {
   { import = "astrocommunity.debugging.nvim-dap-virtual-text" },
   { import = "astrocommunity.debugging.nvim-dap-repl-highlights" },
   { import = "astrocommunity.debugging.telescope-dap-nvim" },
+  { import = "astrocommunity.color.tint-nvim" },
   { import = "astrocommunity.lsp.lsp-signature-nvim" },
   { import = "astrocommunity.motion.hop-nvim" },
   { import = "astrocommunity.scrolling.neoscroll-nvim" },
