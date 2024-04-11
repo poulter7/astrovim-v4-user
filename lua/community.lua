@@ -5,7 +5,6 @@
 ---@type LazySpec
 return {
   "AstroNvim/astrocommunity",
-  { import = "astrocommunity.bars-and-lines.bufferline-nvim" },
   { import = "astrocommunity.color.modes-nvim" },
   { import = "astrocommunity.debugging.nvim-dap-virtual-text" },
   { import = "astrocommunity.debugging.nvim-dap-repl-highlights" },
