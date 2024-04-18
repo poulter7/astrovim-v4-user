@@ -57,6 +57,7 @@ return {
           end,
           desc = "Pick to close",
         },
+        ["\"] = { ":ToggleTermToggleAll<CR>", desc = "Toggle Floating Terminal" },
         ["-"] = { ":split<cr>", desc = "Split" },
         -- tables with just a `desc` key will be registered with which-key if it's installed
         -- this is useful for naming menus
