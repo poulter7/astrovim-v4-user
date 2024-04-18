@@ -57,7 +57,7 @@ return {
           end,
           desc = "Pick to close",
         },
-        ["\\"] = { ":ToggleTerm<CR>", desc = "Toggle Floating Terminal" },
+        ["\\"] = { '<Cmd>execute v:count . "ToggleTerm"<CR>', desc = "Toggle terminal" },
         ["-"] = { ":split<cr>", desc = "Split" },
         -- tables with just a `desc` key will be registered with which-key if it's installed
         -- this is useful for naming menus
@@ -68,6 +68,7 @@ return {
       t = {
         -- setting a mapping to false will disable it
         -- ["<esc>"] = false,
+        ["\\"] = { "<Cmd>ToggleTerm<CR>", desc = "Toggle terminal" }
       },
     },
   },
